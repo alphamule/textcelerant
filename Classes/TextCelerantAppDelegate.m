@@ -1,4 +1,4 @@
-	//
+//
 //  TextCelerantAppDelegate.m
 //  TextCelerant
 //
@@ -14,9 +14,9 @@
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	textViewController = [[TextViewController alloc] init];
-	[window addSubview:[textViewController view]];
-	
+    textViewController = [[TextViewController alloc] init];
+    [window addSubview:[textViewController view]];
+
     [window makeKeyAndVisible];
 }
 

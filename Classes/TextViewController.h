@@ -11,23 +11,23 @@
 #define RUNNING 1
 
 @interface TextViewController : UIViewController <UIScrollViewDelegate> {
-	UILabel	*label;
-	UILabel *doneLabel;
-	UILabel *speedLabel;
-	UILabel *pausedLabel;
-	UISlider *speedSlider;
-	UISlider *textProgress;
-	UISlider *charactersPerFrame;
-	UISlider *textSize;
-	NSTimer *timer;
-	NSArray *words;
-	UIScrollView *scrollView;
-	int iteration;
-	int wordsPerMinute;
-	int state;
-	int wordsPerFrame;
-	int currentFramwWordCount;
-	float charactersPerWord;
+    UILabel *label;
+    UILabel *doneLabel;
+    UILabel *speedLabel;
+    UILabel *pausedLabel;
+    UISlider *speedSlider;
+    UISlider *textProgress;
+    UISlider *charactersPerFrame;
+    UISlider *textSize;
+    NSTimer *timer;
+    NSArray *words;
+    UIScrollView *scrollView;
+    int iteration;
+    int wordsPerMinute;
+    int state;
+    int wordsPerFrame;
+    int currentFramwWordCount;
+    float charactersPerWord;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *label;

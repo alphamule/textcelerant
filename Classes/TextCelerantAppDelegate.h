@@ -12,7 +12,7 @@
 
 @interface TextCelerantAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	TextViewController *textViewController;
+    TextViewController *textViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

@@ -196,7 +196,7 @@
 				GCC_PREFIX_HEADER = TextCelerant_Prefix.pch;
 				INFOPLIST_FILE = "TextCelerant-Info.plist";
 				PRODUCT_NAME = TextCelerant;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -209,7 +209,7 @@
 				GCC_PREFIX_HEADER = TextCelerant_Prefix.pch;
 				INFOPLIST_FILE = "TextCelerant-Info.plist";
 				PRODUCT_NAME = TextCelerant;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

@@ -87,7 +87,7 @@
             wordsPerFrame = 1;
         }
         [self alarmFired];
-        NSLog(@"wordsPerFrame = %f", wordsPerFrame);
+        NSLog(@"wordsPerFrame = %d", wordsPerFrame);
     } else {
         NSLog(@"Doing nothing, state=%d", state);
     }
